@@ -1,11 +1,39 @@
 
 class Coche {
 
-    public String modelo;
-    public String color;
-    public boolean pinturaMetalizada;
-    public int matricula;
-    public int anioFabricacion;
+    private String modelo;
+    private String color;
+    private boolean pinturaMetalizada;
+    private int matricula;
+    private int anioFabricacion;
+
+    public String getModelo() {
+        return this.modelo;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public int getMatricula() {
+        return this.matricula;
+    }
+
+    public int getAnioFabricacion() {
+        return this.anioFabricacion;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
 
     public void imprimirCoche() {
         System.out.println("Modelo: " + this.modelo + " Color: " + this.color);
