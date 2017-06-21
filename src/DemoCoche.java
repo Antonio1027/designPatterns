@@ -13,5 +13,8 @@ class DemoCoche {
         Coche coche2 = new Coche("Fiesta", "rojo", 55445);
         coche2.imprimirCoche();
         System.out.println("Matricula: " + coche2.getMatricula());
+        
+        CocheCarrera cocheCarrera1= new CocheCarrera(200,5,"BMW", "NEON",666);
+        System.out.println("Datos del coche de carreras: "+cocheCarrera1.premiacion());
     }
 }

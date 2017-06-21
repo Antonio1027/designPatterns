@@ -92,8 +92,17 @@ Agregar el modificador final al atributo agencia para convertirla en constante.
 
 ## Ejercicio 8
 
-Crear una clase CocheDeportivo
+Crear una clase Coche de carreras el cual sera un coche especializado de un coche normal, este coche, además deberá tener los siguientes atributos:
+        -rpm
+        -numero de victorias
+Además deberá tener un método constructor que reciba estos nuevos atributos y los asígne además de los ya existentes de la clase coche.
 
+Se debera tener además las siguientes nuevas caracteristicas:
+
+    - deberá haber un metodo que cambie el valor de las rpm ademas de el numero de victorias
+    - definir un método el cual sea llamado premiacion el cual retorne un string con el numero de victorias, las rpm del vehiculo y la agencia de la cual proviene
+
+crear en el bloque main de la clase DemoCoche una instancia de esta nueva clase y utilizar los nuevos metodos planteados
 
 ## Ejercicio 9
 

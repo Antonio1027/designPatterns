@@ -1,7 +1,7 @@
 
 class Coche {
 
-    private final static String AGENCIA = "Ford";
+    protected final static String AGENCIA = "Ford";
 
     private String modelo;
     private String color;
