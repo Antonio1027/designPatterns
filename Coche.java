@@ -6,6 +6,12 @@ class Coche
 	private int matricula;
 	private int anioFabricacion;
 
+	Coche(String modelo, String color)
+	{
+		this.modelo = modelo;
+		this.color = color;
+	}
+
 	public String getModelo()
 	{
 		return this.modelo;
