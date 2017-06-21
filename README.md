@@ -19,10 +19,10 @@ Definir una clase que represente a un coche. En la definicion se debe incluir:
 Posteriormente definir una clase DemoCoche el cual contendra el bloque main y dentro de este una instancia de la clase Coche previamente definida. Asignar valores a los atributos modelo y color e imprimirlos en pantalla.
 
 Creacion de una instancia:
-	- ClassName instanceName = new ClassName()
+	- NombreClase NombreInstancia = new NombreClase()
 
 Acceder a un atributo de un objeto
-	- instanceName.attributeName
+	- NombreInstancia.NombreAtributo
 
 ## Ejercicio 3
 
@@ -33,15 +33,29 @@ En la clase DemoCoche solo debera contener dentro del bloque main() la creacion 
 
 ## Ejercicio 4
 
-Modificar el ambito de los atributos de la clase coche a privado. Definir metodos accesores a atributos bajo la sintaxis getNombreAtributo para los siguientes atributos:
+Modificar el ambito de los atributos de la clase coche a privado. 
+Definir metodos accesores a atributos bajo la sintaxis getNombreAtributo para los siguientes atributos:
 
 	- modelo
 	- color
 	- matricula
 	- año de fabricacion
 
-Para acceder a los atributos dentro de cada metodo se debe hacer referencia mediante this.
 Cada metodo debe retornar el mismo tipo de dato al que hace referencia.
+
+Definir metodos accesores a atributos que asignan un valor a un atributo mediante la sintaxis setNombreAtributo para los siguientes atributos:
+
+	- modelo
+	- color
+	- matricula
+
+En estos metodos no se devulve ningun valor ya que unicamente se le asigna un valor al atributo.
+
+Para acceder a los atributos dentro de cada metodo se debe hacer referencia mediante this:
+
+	- this.NombreAtributo
+
+Dentro del bloque main de la clase DemoCoche realizar la llamada al metodo que devuelve la matricula e imprimirla en pantalla.
 
 ## Ejercicio 5
 
