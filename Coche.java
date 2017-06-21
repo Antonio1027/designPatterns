@@ -12,6 +12,13 @@ class Coche
 		this.color = color;
 	}
 
+	Coche(String modelo, String color, int matricula)
+	{
+		this.modelo = modelo;
+		this.color = color;
+		this.matricula = matricula;
+	}
+
 	public String getModelo()
 	{
 		return this.modelo;
