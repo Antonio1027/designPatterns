@@ -1,5 +1,7 @@
 class Coche
 {
+	private final static String AGENCIA = "Ford";
+
 	private String modelo;
 	private String color;
 	private boolean pinturaMetalizada;
@@ -57,6 +59,11 @@ class Coche
 	public void imprimirCoche()
 	{
 		System.out.println("Modelo: " + this.modelo + " Color: " + this.color);
+	}
+
+	public static void imprimirAgencia()
+	{
+		System.out.println("Agencia: " + Coche.AGENCIA);
 	}
 
 }

@@ -78,9 +78,11 @@ Crear una instacia mediante este constructor en el bloque main() de la clase Dem
 
 ## Ejercicio 7
 
-Definir el atributo agencia que es de tipo String, precedido por el modificador static y de ambito privado e inicializarla.
+Definir el atributo AGENCIA que es de tipo String, precedido por el modificador static y de ambito privado e inicializarla.
 
-Definir un metodo imprimirAgencia, sin valor de retorno precedido por el modificador static y de ambito publico. Dentro de este metodo escribir la sentencia que imprimir el valor del atributo agencia.
+Definir un metodo imprimirAgencia, sin valor de retorno precedido por el modificador static y de ambito publico. Dentro de este metodo escribir la sentencia que imprimir el valor del atributo agencia. Para acceder al atributo agencia use la siguiente sintaxis:
+
+	- NombreClase.NombreAtributo
 
 En el bloque main() de la clase DemoCoche imprimir el valor del atributo agencia de la clase Coche mediate la llamada al metodo imprimirAgencia bajo la siguiente sintaxis:
 
