@@ -3,11 +3,9 @@ class DemoCoche {
 
     public static void main(String[] args) {
 
-        Coche coche = new Coche();
+        Coche coche = new Coche("mazda 3","plata");
 
         coche.setMatricula(1234);
-        coche.setModelo("mazda 3");
-        coche.setColor("plata");
         coche.imprimirCoche();
         System.out.println("Matricula: " + coche.getMatricula());
     }
