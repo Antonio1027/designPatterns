@@ -7,6 +7,6 @@ class DemoCoche
 		Coche coche = new Coche();
                 coche.modelo="mazda 3";
                 coche.color="plata";
-                System.out.println(coche.modelo+" , "+coche.color);
+                coche.imprimirCoche();
 	}
 }
